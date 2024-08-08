@@ -1,10 +1,10 @@
 <?php
-$Identidicacion=$_POST["Identificacion"];
-$NombreApellidos=$_POST["NomApellido"];
-$Cargo=$_POST ["Cargo"];
-$Salario=$_POST ["Salario"];
-echo "La idetifiacion del Em´pleado es: ".Identidicion;
-echo "El nombre y apellido del empleado es: ".NomApellido;
-echo "El cargo del empleado es:".Cargo;
-echo"El salario del empleado es: ".Salario;
+$Identificacion= $_POST ['Identificacion'];
+$NomApellidos= $_POST ['NomApellidos'];
+$Cargo= $_POST ['cargo'];
+$Salario= $_POST ['Salario'];
+echo "La identificacion del Empleado es: ".Identificacion;
+echo "Los nombres y apellidos del empleado son: ".NomApellidos;
+echo "El cargo del empleado es: ".Cargo;
+echo "El salario del empleado es: ".Salario;
 ?>
